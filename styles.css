@@ -226,6 +226,20 @@ body {
   color: white;
   animation: zoomEffect 8s ease-in-out infinite;
 }
+@media (max-width: 768px) {
+  .hero-slide{
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+  }
+  .hero-slide .container h1{
+    font-size: 1.5rem;
+  }
+  .hero-slide .container p{
+    font-size: 0.9rem
+  }
+}
 
 @keyframes zoomEffect {
   0% {
